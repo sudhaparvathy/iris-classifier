@@ -6,6 +6,6 @@ Confusion Matrix
 
 The confusion matrix shows how many samples were correctly and incorrectly classified.
 
-Sll flowers were classified correctly.
+All flowers were classified correctly.
 No misclassifications happened
 All 3 flowers Sitosa, Veriscolor and Virginica classified correctly
