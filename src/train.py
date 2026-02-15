@@ -19,6 +19,7 @@ cm = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
 print(cm)
 import os
+import joblib
 os.makedirs("outputs", exist_ok=True)
 import matplotlib.pyplot as plt
 
@@ -29,3 +30,4 @@ plt.axis('off')
 
 plt.savefig("outputs/confusion_matrix.png")
 plt.close()
+joblib.dump(model, "outputs/decision_tree_model.joblib")
